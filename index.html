@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="color-palette">
+        <div class="color_boxes">
+          <div class="color pink"></div>
+        </div>
+        <div class="color_boxes">
+          <div class="color blue"></div>
+        </div>
+        <div class="color_boxes">
+          <div class="color green"></div>
+        </div>
+        <div class="color_boxes">
+          <div class="color black"></div>
+        </div>
+      </div>
+      <div class="options">
+        <div class="add box">
+          <i class="fa-solid fa-plus icon"></i>
+        </div>
+        <div class="delete box">
+          <i class="fa-solid fa-xmark icon"></i>
+        </div>
+      </div>
+
+      <div class="options">
+        <div class="lock box">
+          <i class="fa-solid fa-lock icon"></i>
+        </div>
+        <div class="unlock box">
+          <i class="fa-solid fa-lock-open icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main element , main body http://127.0.0.1:5500/jira/activity/index.htmlcontent  -->
+    <div class="main">
+      <!-- <div class="ticket">
+        <div class="ticket-header black"></div>
+        <div class="ticket-content">
+          <div class="ticket-id">#CYL5y</div>
+          <div class="text-area">
+            <textarea name="content" id="" cols="30" rows="10">Hi</textarea>
+          </div>
+        </div>
+      </div> -->
+    </div>
+    <!-- remember to set height as there is no content in main that is why u have to set height manually -->
+
+    <!-- thesse are for ease for programming as uuid will compile and so we can use it in index.js  -->
+    <script src="uuid.js"></script>
+    <!-- lock unlock enable delete  -->
+    <script src="app.js"></script>
+    <!-- filter -->
+    <script src="filter.js"></script>
+    <!-- creation -> change color, delete , edit  -->
+    <script src="index.js"></script>
+  </body>
+</html>
